@@ -1,4 +1,4 @@
-# DPMP
+# DP-Net
 The official implementation of "DP-Net: Dual prototype learning for semi-supervised medical image segmentation"
 
 ## Requirements
