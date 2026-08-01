@@ -17,8 +17,8 @@ To train a model,
 ```
 python train_3d.py --dataset LA --labeled_num 4  #for LA training
 python train_3d.py --dataset PAN --labeled_num 6 #for Pancreas-NIH training
-python train_2d.py --dataset ACDC --labeled_num 7 --lab_batch_size 4 --unlab_batch_size 4 #for ACDC training
-python train_2d.py --dataset PROMISE --labeled_num 7 --lab_batch_size 4 --unlab_batch_size 4 #for PROMISE 12 training
+python train_2d.py --dataset ACDC --labeled_num 7  #for ACDC training
+python train_2d.py --dataset PROMISE --labeled_num 7  #for PROMISE 12 training
 ``` 
 
 To test a model,
