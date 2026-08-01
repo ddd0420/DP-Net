@@ -28,3 +28,8 @@ python test_3d.py --dataset LA #for LA and testing
 python test_3d.py --dataset PAN #for Pancreas-NIH testing
 python test_2d.py  #for ACDC and PROMISE 12 testing
 ```
+
+## Acknowledgements
+Part of the code is adapted from [UPCoL](https://github.com/ycwu1997/MC-Net), [SSNet](https://github.com/ycwu1997/SS-Net), and [SSL4MIS](https://github.com/HiLab-git/SSL4MIS). Thanks to these authors for their valuable works and hope our model can promote the relevant research as well.
+## Questions
+If you have any questions, welcome contact me at 'dgx@whut.edu.cn'
