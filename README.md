@@ -11,7 +11,7 @@ pip install requirements.txt
 ## Usage
 We provide `code`, `data_split` and `models` for LA, Pancreas-NIH and ACDC dataset.
 
-Data could be got at [LA](https://github.com/yulequan/UA-MT/tree/master/data) Pancreas-NIH [CoraNet](https://github.com/koncle/CoraNet) and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
+Data could be got at [LA](https://github.com/yulequan/UA-MT/tree/master/data)  [Pancreas-NIH](https://github.com/koncle/CoraNet)  and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
 
 To train a model,
 ```
