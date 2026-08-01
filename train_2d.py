@@ -51,8 +51,8 @@ def get_arguments():
     parser.add_argument("--list_dir", type=str, default='C:/PycharmProjects/dataset/ACDC/datalist/ACDC',
                         help="datalist")
     # Optimization options
-    parser.add_argument('--lab_batch_size', type=int, default=2, help='batch size')
-    parser.add_argument('--unlab_batch_size', type=int, default=2, help='batch size')
+    parser.add_argument('--lab_batch_size', type=int, default=4, help='batch size')
+    parser.add_argument('--unlab_batch_size', type=int, default=4, help='batch size')
     parser.add_argument('--lr', type=float, default=0.0005, help='learning rate')
     parser.add_argument('--iters', type=int, default=30000, help='maximum iter number to pretraining')
     parser.add_argument('--save_step', type=int, default=500, help='frequecy of checkpoint save in pretraining')
