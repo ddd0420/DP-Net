@@ -13,7 +13,7 @@ We provide `code`, `data_split` and `models` for LA, Pancreas-NIH and ACDC datas
 
 Data could be got at [LA](https://github.com/yulequan/UA-MT/tree/master/data),  [Pancreas-NIH](https://github.com/koncle/CoraNet), 
 and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC), [PROMISE 12](https://github.com/wxfaaaaa/DCNet)
-
+We have also provided the processed datasets on Baidu Cloud [dataset](https://github.com/wxfaaaaa/DCNet).
 To train a model,
 ```
 python train_3d.py --dataset LA --labeled_num 4  #for LA training
