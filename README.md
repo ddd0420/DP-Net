@@ -2,7 +2,7 @@
 The official implementation of "DP-Net: Dual prototype learning for semi-supervised medical image segmentation"
 
 ## Requirements
-This repository is based on PyTorch 2.1.1, CUDA 12.1 and Python 3.9.21. 
+This repository is based on PyTorch 2.1.1, CUDA 12.1 and Python 3.9.21. All experiments in our paper were conducted on an NVIDIA RTX 4090 GPU with an identical experimental setting.
 
 Install the main packages:
 ```angular2html
@@ -11,7 +11,8 @@ pip install requirements.txt
 ## Usage
 We provide `code`, `data_split` and `models` for LA, Pancreas-NIH and ACDC dataset.
 
-Data could be got at [LA](https://github.com/yulequan/UA-MT/tree/master/data),  [Pancreas-NIH](https://github.com/koncle/CoraNet), and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
+Data could be got at [LA](https://github.com/yulequan/UA-MT/tree/master/data),  [Pancreas-NIH](https://github.com/koncle/CoraNet), 
+and [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC), [PROMISE 12]([https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC](https://github.com/wxfaaaaa/DCNet))
 
 To train a model,
 ```
